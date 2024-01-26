@@ -98,10 +98,6 @@ export default function App() {
       });
   };
 
-  const checkTodo = (id, completed) => {
-    setTodos(todos.map(t => t.id !== id ? t : { ...t, completed }));
-  };
-
   useEffect(() => {
     todoService.getTodos()
       .then(setTodos)
@@ -159,7 +155,6 @@ export default function App() {
 
       <TodoList
         todos={preparedTodos}
-        onCheck={checkTodo}
         onRemove={removeTodo}
         onUpdate={updateTodo}
       />

@@ -11,7 +11,6 @@ export const TodoList = memo(({ todos, onCheck, onRemove, onUpdate }) => {
         text={todo.text}
         completed={todo.completed}
         date={todo.date}
-        onCheck={onCheck}
         onRemove={onRemove}
         onUpdate={onUpdate}
       />

@@ -5,7 +5,6 @@ export const TodoItem = ({
   text,
   completed,
   date,
-  onCheck,
   onRemove,
   onUpdate,
 }) => {

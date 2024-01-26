@@ -7,12 +7,12 @@ Easily manage your tasks and set deadlines. Stay organized, boost efficiency, an
 ## Actions
 
 ### First, you need to create a task and add a due date for it:
-![img.png](addTodo.png)
+![img.png](./public/addTodo.png)
 
 ### Filter your tasks by these criteria:
-![img_1.png](manageList.png)
+![img_1.png](./public/manageList.png)
 
-### To update a task - simply double click on it.
+### To update a task - simply double-click on it.
 
 ## Technologies
 

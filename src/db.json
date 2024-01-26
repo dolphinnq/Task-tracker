@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": "2d876ffe-a519-4585-a746-d0c5050c388f",
+      "text": "Complete the test task",
+      "completed": true,
+      "date": "2024-01-26"
+    },
+    {
+      "id": "a8b85331-926a-4528-babe-2511016d8eba",
+      "text": "Learn new song",
+      "completed": false,
+      "date": "2024-01-30"
+    },
+    {
+      "id": "6726cf33-bb4b-46e1-82af-a58c7d2a74bf",
+      "text": "Learn Angular",
+      "completed": false,
+      "date": "2024-02-10"
+    }
+  ]
+}
